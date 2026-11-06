@@ -4,7 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+alt-dsa = { workspace = true }
+alt-ansi = { workspace = true }
+
 clap = { workspace = true }
 futures = { workspace = true }
 tokio = { workspace = true }
 tokio-stream = { workspace = true }
+strum = { version = "0.28.0", features = ["derive"] }

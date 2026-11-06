@@ -1,3 +1,5 @@
+use alt_ansi::colour::Colours;
+
 #[derive(clap::Parser)]
 pub struct Args {
     // -h is in use by --help
